@@ -15,13 +15,13 @@ Applications of stack :
 4. _Call stack_ : To store list of functions that are either executing or waiting to be executed during runtime. ( stored in stack in memory)
 5. Practical application : (<-)Back button present in a browser pushes the URLs of the visited sites on a stack.
 
-## Balanced parentheses using stack
+# Balanced parentheses using stack
 
 A parentheses is said to be balanced if each left parenthesis has its respective right parenthesis to match its pair in a well-nested format.
 
 In computer science, valid parentheses(balanced parentheses) are a notation used to simplify expressions written in an operator-precedence parser by allowing the programmer to explicitly mark the operator precedence and associativity of a given expression.
 
- # What is valid parentheses problem?
+ ## What is valid parentheses problem?
   Given a string s containing just the characters '(', ')', '{', '}', '[', and ']', determine if the input string is valid or not.
 
 Note that an input string is valid if:
@@ -29,7 +29,7 @@ Note that an input string is valid if:
 1)Open brackets must be closed by the same type of brackets
 2)Open brackets must be closed in the correct order
 
- # Algorithm using stack
+ ## Algorithm using stack
  
  To solve a valid parentheses problem optimally, you can make use of Stack data structure. Here you traverse through the expression and push the characters one by one inside the stack. Later, if the character encountered is the closing bracket, pop it from the stack and match it with the starting bracket. This way, you can check if the parentheses find their respective pair at the end of the traversal and if not, the parentheses are not valid.
 1. Declare stack S.
